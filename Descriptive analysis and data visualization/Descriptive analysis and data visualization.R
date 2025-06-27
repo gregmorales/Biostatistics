@@ -89,5 +89,3 @@ df %>%
   geom_col() + 
   coord_polar(theta = "y")+
   labs(title = "Proportion of persons that smokes now", )
-
-system('git config --global credential.helper ""')
